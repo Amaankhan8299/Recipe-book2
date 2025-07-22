@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+#recipe-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  color: #2980b9;
+}
+
+#recipe-list li:hover {
+  background-color: #f0f8ff;
+}
+
+#recipe-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: #fffbe6;
+}
+
+.hidden {
+  display: none;
+}
